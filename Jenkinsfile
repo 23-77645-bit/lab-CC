@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         GIT_REPO_URL = 'https://github.com/23-77645-bit/lab-CC.git'
-        GIT_CREDENTIALS_ID = '2026'
+        GIT_CREDENTIALS_ID = '2025'
         GIT_BRANCH = 'main'
     }
     stages {
