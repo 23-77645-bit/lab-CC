@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         GIT_REPO_URL = 'https://github.com/calvinjohnplacio/testlab.git'
-        GIT_CREDENTIALS_ID = 'github-pat2'
+        GIT_CREDENTIALS_ID = '2026'
         GIT_BRANCH = 'main'
     }
     stages {
